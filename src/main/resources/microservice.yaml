@@ -1,0 +1,28 @@
+APPLICATION_ID: Demo-for-microservice  # 服务所属应用的应用id，默认服务之间调用必须在同一个应用里面
+service_description:
+  name: provider # 服务名称
+  version: 0.0.1   # 服务版本
+cse:
+  service:
+    registry:
+      address: https://cse.cn-east-2.myhuaweicloud.com  # CSE引擎服务注册发现地址, https或者http按照实际填写, 用户需要确定本地到注册中心地址在网络上是互通的。
+      instance:
+        watch: false
+  config:
+    client:
+      serverUri: https://cse.cn-east-2.myhuaweicloud.com # CSE引擎配置中心地址, https或者http按照实际填写, 用户需要确定本地到配置中心地址在网络上是互通的。
+      refreshMode: 1
+      refresh_interval: 5000
+  monitor:                      # 只有从本地接入云上CSE时需要配置monitor地址，云上集群部署时可以通过服务发现接入monitor
+    client:
+      serverUri: https://cse.cn-east-2.myhuaweicloud.com
+  rest:
+      address: 0.0.0.0:8080 # 服务监听地址
+  credentials:
+    accessKey: RWUI2MLEYKEQFPUPJNGS  #结合用户实际值ak和加解密扩展进行配置
+    secretKey: dx7yXUiEGjnOJqDnlVm9vHzQziePOWWPmWTYA5si  #结合用户实际值sk和加解密扩展进行配置
+    project: cn-east-2
+    akskCustomCipher: default
+  accesslog:
+    enabled: true
+    pattern: "%h - - %t cs-uri %s %B %D %SCB-traceId"

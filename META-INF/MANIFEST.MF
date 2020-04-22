@@ -1,0 +1,61 @@
+Manifest-Version: 1.0
+Main-Class: helloworld.demo.provider.ProviderMain
+Class-Path: protostuff-runtime-1.5.9.jar stax2-api-3.1.4.jar netty-codec
+ -http-4.1.28.Final.jar cse-handler-performance-stats-2.3.69.jar netty-b
+ uffer-4.1.28.Final.jar transport-common-1.2.0.B006.jar hibernate-valida
+ tor-6.0.14.Final.jar archaius-core-0.7.3.jar hystrix-core-1.5.12.jar de
+ ployment-1.2.0.B006.jar rxnetty-servo-0.4.9.jar commons-lang-2.6.jar fo
+ undation-common-1.2.0.B006.jar spring-beans-4.3.20.RELEASE.jar spring-c
+ ore-4.3.20.RELEASE.jar ribbon-core-2.2.5.jar handler-flowcontrol-qps-1.
+ 2.0.B006.jar log4j-core-2.8.2.jar httpclient-4.5.7.jar jackson-dataform
+ at-yaml-2.9.8.jar javassist-3.24.0-GA.jar zipkin-2.9.3.jar swagger-anno
+ tations-1.5.22.jar zipkin-reporter-2.5.0.jar spectator-api-0.83.0.jar g
+ uava-26.0-jre.jar vertx-web-common-3.6.3.jar swagger-invocation-core-1.
+ 2.0.B006.jar httpcore-4.4.9.jar validation-api-2.0.1.Final.jar foundati
+ on-auth-2.3.69.jar foundation-vertx-1.2.0.B006.jar netty-codec-http2-4.
+ 1.28.Final.jar jboss-logging-3.2.1.Final.jar transport-rest-servlet-1.2
+ .0.B006.jar guice-multibindings-4.1.0.jar javax.el-3.0.0.jar classmate-
+ 1.3.4.jar brave-5.6.0.jar swagger-invocation-springmvc-1.2.0.B006.jar j
+ ackson-databind-2.9.8.jar swagger-generator-springmvc-1.2.0.B006.jar co
+ mmons-codec-1.10.jar netty-transport-4.1.28.Final.jar swagger-generator
+ -jaxrs-1.2.0.B006.jar protostuff-api-1.5.9.jar swagger-core-1.5.22.jar 
+ rxnetty-0.4.9.jar edge-core-1.2.0.B006.jar HdrHistogram-2.1.9.jar proto
+ stuff-parser-2.2.25.jar netty-codec-dns-4.1.28.Final.jar handler-fault-
+ injection-1.2.0.B006.jar provider-rest-common-1.2.0.B006.jar swagger-mo
+ dels-1.5.22.jar handler-publickey-auth-1.2.0.B006.jar cse-solution-serv
+ ice-engine-2.3.69.jar vertx-web-3.6.3.jar guice-4.2.0.jar ribbon-transp
+ ort-2.2.5.jar commons-configuration-1.10.jar netty-codec-4.1.28.Final.j
+ ar config-cc-1.2.0.B006.jar log4j-api-2.8.2.jar error_prone_annotations
+ -2.1.3.jar spring-aop-4.3.20.RELEASE.jar checker-qual-2.5.2.jar woodsto
+ x-core-5.0.3.jar j2objc-annotations-1.1.jar netty-handler-proxy-4.1.28.
+ Final.jar antlr4-runtime-4.7.jar netty-resolver-4.1.28.Final.jar snakey
+ aml-1.23.jar swagger-invocation-jaxrs-1.2.0.B006.jar spring-expression-
+ 4.3.20.RELEASE.jar provider-pojo-1.2.0.B006.jar javax.ws.rs-api-2.0.1.j
+ ar spectator-reg-servo-0.83.0.jar transport-highway-1.2.0.B006.jar comm
+ ons-io-2.6.jar rxnetty-contexts-0.4.9.jar handler-loadbalance-1.2.0.B00
+ 6.jar animal-sniffer-annotations-1.14.jar javax.servlet-api-3.1.0.jar c
+ ommon-javassist-1.2.0.B006.jar swagger-generator-core-1.2.0.B006.jar sl
+ f4j-api-1.7.26.jar jackson-annotations-2.9.8.jar provider-springmvc-1.2
+ .0.B006.jar guice-assistedinject-4.1.0.jar jackson-core-2.9.8.jar slf4j
+ -log4j12-1.7.26.jar transport-rest-vertx-1.2.0.B006.jar vertx-bridge-co
+ mmon-3.6.3.jar vertx-auth-common-3.6.3.jar antlr4-4.7.jar netty-codec-s
+ ocks-4.1.28.Final.jar ribbon-2.2.5.jar swagger-invocation-validator-1.2
+ .0.B006.jar common-protobuf-1.2.0.B006.jar common-rest-1.2.0.B006.jar p
+ rotostuff-collectionschema-1.5.9.jar org.abego.treelayout.core-1.0.3.ja
+ r netty-resolver-dns-4.1.28.Final.jar jackson-dataformat-xml-2.9.8.jar 
+ log4j-1.2.17.jar javax.inject-1.jar icu4j-58.2.jar netflix-commons-util
+ -0.1.1.jar ST4-4.0.8.jar protobuf-java-3.6.1.jar cse-handler-cloud-exte
+ nsion-2.3.69.jar service-registry-1.2.0.B006.jar log4j-1.2.17.jar ribbo
+ n-loadbalancer-2.2.5.jar spring-context-4.3.20.RELEASE.jar foundation-p
+ rotobuf-1.2.0.B006.jar handler-bizkeeper-1.2.0.B006.jar spring-webmvc-4
+ .3.20.RELEASE.jar jsr305-3.0.1.jar transport-rest-client-1.2.0.B006.jar
+  netty-handler-4.1.28.Final.jar foundation-config-1.2.0.B006.jar javax.
+ json-1.0.4.jar foundation-ssl-1.2.0.B006.jar provider-jaxrs-1.2.0.B006.
+ jar vertx-core-3.6.3.jar servo-core-0.12.25.jar spring-web-4.3.20.RELEA
+ SE.jar antlr-runtime-3.5.2.jar protostuff-core-1.5.9.jar commons-lang3-
+ 3.7.jar rxjava-1.1.6.jar netty-common-4.1.28.Final.jar netflix-statisti
+ cs-0.1.1.jar jackson-module-jaxb-annotations-2.8.11.jar foundation-metr
+ ics-1.2.0.B006.jar java-chassis-core-1.2.0.B006.jar commons-logging-1.2
+ .jar aopalliance-1.0.jar netty-tcnative-boringssl-static-2.0.14.Final.j
+ ar
+
